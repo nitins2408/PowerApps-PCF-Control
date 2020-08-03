@@ -17,6 +17,9 @@ PowerApps PCF Control
 1. By Default it shall pre poulate with the Default data.
 
 2. You need to set your JsonTable ( having Label,Value & Color columns) to the JsonChart Property.  You can set "CityPopulationsJson" if you are using below example
+
+
+
           `ClearCollect( CityPopulations,
     { label: "London",    color: "#B3B3B3",   value: 8615000 },
     { label: "Berlin",    color: "#118dff",        value: 3562000 },
@@ -25,11 +28,10 @@ PowerApps PCF Control
     { label: "Barcelona", color: "#109618",          value: 1602000 },
     { label: "Munich",    color: "#3860B2",        value: 1494000 }
 );
-
-Set( CityPopulationsJson , JSON(CityPopulations)); `
+ `
 
 3. It has option to adjust X, Y axis coordinate along with the height , X & Y Axis coordonate for the inner radius. If you set inner radius in beteen 0.3-.0.7 it shall be converted to Donut chart. IF set to 0 it will be Pie Chart
-    `(HorizontalBarGraph.GalleryWidthMultiplicationFactor + HorizontalBarGraph.Width-640) * (ThisItem.Population/Max( ColumnChartSample,Population))`
+  
 
 
 
