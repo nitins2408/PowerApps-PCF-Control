@@ -20,15 +20,7 @@ PowerApps PCF Control
 
 
 
-          `ClearCollect( CityPopulations,
-    { label: "London",    color: "#B3B3B3",   value: 8615000 },
-    { label: "Berlin",    color: "#118dff",        value: 3562000 },
-    { label: "Madrid",    color: "#BBDD8C",          value: 3165000 },
-    { label: "Hamburg",   color: "#7FB239",        value: 1760000 },
-    { label: "Barcelona", color: "#109618",          value: 1602000 },
-    { label: "Munich",    color: "#3860B2",        value: 1494000 }
-);
- `
+          `ClearCollect( CityPopulations,     { label: "London",    color: "#B3B3B3",   value: 8615000 },     { label: "Berlin",    color: "#118dff",        value: 3562000 },     { label: "Madrid",    color: "#BBDD8C",          value: 3165000 },     { label: "Hamburg",   color: "#7FB239",        value: 1760000 },     { label: "Barcelona", color: "#109618",          value: 1602000 },     { label: "Munich",    color: "#3860B2",        value: 1494000 } ); `
 
 3. It has option to adjust X, Y axis coordinate along with the height , X & Y Axis coordonate for the inner radius. If you set inner radius in beteen 0.3-.0.7 it shall be converted to Donut chart. IF set to 0 it will be Pie Chart
   
