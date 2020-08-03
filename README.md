@@ -5,7 +5,7 @@ PowerApps PCF Control
  
 ## Components
 
-1.  Horizontal Bar Chart  
+3D PieChart & 3D Donut Chart
 
 ![3D Pie & Donut Chart](https://github.com/nitins2408/PowerApps-PCF-Control/blob/master/3D_piechart.gif)
 
