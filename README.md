@@ -24,6 +24,8 @@ PowerApps PCF Control
 
 3. It has option to adjust X, Y axis coordinate along with the height , X & Y Axis coordonate for the inner radius. If you set inner radius in beteen 0.3-.0.7 it shall be converted to Donut chart. IF set to 0 it will be Pie Chart
   
+  ![3D Pie & Donut Chart](https://github.com/nitins2408/PowerApps-PCF-Control/blob/master/PieChart3D.jpg)
+
 
 
 
